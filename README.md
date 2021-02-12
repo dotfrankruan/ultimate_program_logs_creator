@@ -33,9 +33,11 @@ logs.close() # VERY IMPORTANT!!! OTHERWISE THE LOG WILL NOT BE SAVED!!!
 <br/>
 2. You can use `logs.write` to create a row.
 <br/>
+
 ```python
 logs.write(LOGS_TEXT, TYPE(DEBUG/INFO/WARNING/FATAL), TIME_ACCURACY)
 ```
+
 Time Accuracy:
 <br/>
 0: YYYYMMDDHHMMSS
@@ -45,5 +47,6 @@ Time Accuracy:
 2: DDHHMMSS
 <br/>
 3: HHMMSS
+
 ## Important
 **Do not forget to use `logs.close()` to close the file, otherwise you will lose everything you created.**
